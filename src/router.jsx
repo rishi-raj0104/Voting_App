@@ -2,8 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import AuthPage from "./components/AuthPage";
 import PrivateRoute from './PrivateRoute';
-import UserDashboard from "./components/UserDashboard";
-import AdminDashboard from "./components/AdminDashboard";
+import UserDashboard from './components/UserDashboard';
+import AdminDashboard from './components/AdminDashboard';
+
 const router = createBrowserRouter([
     {
         path: "/",
